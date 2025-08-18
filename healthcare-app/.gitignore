@@ -1,0 +1,49 @@
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.eggs/
+.pytest_cache/
+.coverage*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.cache/
+dist/
+build/
+
+# Django / DB files
+db.sqlite3
+*.sqlite3
+/media/
+staticfiles/
+static/            # if you collectstatic into project directory
+
+# Env & secrets
+.env
+.env.*
+*.env
+.venv/
+venv/
+env/
+*.pem
+*.key
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Optional: if a Node/Next.js frontend is inside this same folder ---
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
